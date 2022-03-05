@@ -1,5 +1,6 @@
 import  react, {useState} from 'react'
 import { AddCategory } from './components/AddCategory';
+ import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
 
@@ -9,6 +10,8 @@ export const GifExpertApp = () => {
     //const handleAdd = () => {
      //       setCategories( cats => [...categories + 'Attak on Titan'] );
     //}
+
+    const [categorias, setCategorias]= useState(['Dragon Ball']);
 
     return (
         <>
